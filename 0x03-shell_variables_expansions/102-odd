@@ -1,2 +1,2 @@
 #!/bin/bash
-flag=1; while IFS= read -r line || [ -n "$line" ]; do [ $flag -eq 1 ] && echo "$line"; flag=$((1-flag)); done < /dev/stdin
+grep -n '^' | sed -n 'n;p'
