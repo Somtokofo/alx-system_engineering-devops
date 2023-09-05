@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "The result in base bestchol: $((16#${WATER} + 16#${STIR}))"
+echo "The result in base bestchol: $((16#${WATER} + 16#${STIR}))" | bc
